@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -5,7 +7,8 @@
 
 body{
   background-color: #030712;
-  font-family:Arial, Helvetica, sans-serif;
+  /* font-family:Arial, Helvetica, sans-serif; */
+  font-family: "Fira Code", serif;
 }
 
 .container{
@@ -20,15 +23,33 @@ body{
   font-size: 60px;
 }
 
+.font-code{
+  font-family: "Fira Code", serif;
+}
 
 .text-h-white{
   color: #EEEEEE;
 }
 
-
 .text-blue{
-  /* color: #5070FC; */
   color: #00ADB5;
+}
+
+.transition03{
+  transition: all ease .3s;
+}
+
+.link:hover{
+  color: #00ADB5;
+}
+
+.web-button{
+  background: linear-gradient(150deg, #0080FF,#00ADB5);
+}
+
+.web-button:hover{
+  transform: scaleY(0.8);
+  color: white;
 }
 
 

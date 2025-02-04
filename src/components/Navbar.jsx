@@ -23,11 +23,12 @@ const Navbar = () => {
     
     </button>
     <div className="collapse navbar-collapse justify-content-end text-white" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item"><a className="nav-link text-h-white fw-semibold fs-18 active" aria-current="page" href="#">Home</a></li>
-        <li className="nav-item"><a className="nav-link text-h-white fw-semibold fs-18" href="#">About Me</a></li>
-        <li className="nav-item"><a className="nav-link text-h-white fw-semibold fs-18" href="#">Contact</a></li>
-      </ul>
+      <ul className="navbar-nav align-items-center  gap-4">
+        {/* <li className="nav-item"><a className="nav-link transition03 link text-h-white fw-bold fs-18" href="#">Home</a></li> */}
+        <li className="nav-item"><a className="nav-link transition03 link text-h-white fw-bold fs-18" href="#">Projects</a></li>
+        <li className="nav-item"><a className="web-button d-block transition03 px-4 py-2 text-decoration-none rounded-pill
+             text-h-white fw-bold fs-18" href="#">Contact</a></li>
+      </ul> 
     </div>
   </div>
 </nav>
